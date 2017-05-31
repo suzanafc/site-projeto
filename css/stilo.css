@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+html{
+	font-size: 10px;
+}
+body{
+	font-size:1.8rem ;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
+}
+.menu{
+	background-color: #e9d07e; 
+}
+.nav{
+	padding-right: 0;
+}
+.links{
+    margin-top: 3rem;
+    margin-bottom: 0;
+ 
+}
+.links li{
+	display: inline-block;
+	padding-left:2.9rem;
+
+}
+.links li a{
+	color:#9b8019;
+	text-transform: uppercase;
+	font-weight:400;
+
+}
+.btn{
+	padding-right:0;
+}
+.botao-menu{
+	background: transparent;
+	border: 1px solid #9b8019;
+	border-radius: 2rem;
+	padding: .3rem 1.424rem;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+.titulo{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 5rem;
+	color:#9b8019;
+
+	
+}
+.title{
+	margin-top:2rem;
+}
+.soft{
+	padding-top:2.45rem;
+	background-color: #e9d07e; 
+	
+}
+.soft h2{
+ color: white;
+ font-size: 4.5rem;
+ font-weight: 400;
+
+}
+.soft h3{
+	color: white;
+	font-size: 2.4rem;
+ 	font-weight: 200;
+}
+
