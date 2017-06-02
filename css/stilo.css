@@ -1,38 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
 html{
 	font-size: 10px;
 }
+
 body{
 	font-size:1.8rem ;
 	line-height: 1.7;
 	font-family: 'Roboto', sans-serif;
 }
+
 .menu{
-	background-color: #e9d07e; 
+	position: relative;
+	background-image:url(../img/fundo.jpg);
 }
+
 .nav{
 	padding-right: 0;
 }
+
 .links{
     margin-top: 3rem;
     margin-bottom: 0;
- 
 }
+
 .links li{
 	display: inline-block;
 	padding-left:2.9rem;
-
 }
+
 .links li a{
 	color:#9b8019;
 	text-transform: uppercase;
 	font-weight:400;
-
 }
+
 .btn{
 	padding-right:0;
 }
+
 .botao-menu{
 	background: transparent;
 	border: 1px solid #9b8019;
@@ -41,30 +48,111 @@ body{
 	font-size: 1.6rem;
 	text-transform: uppercase;
 }
+
 .titulo{
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 5rem;
 	color:#9b8019;
-
-	
 }
+
 .title{
 	margin-top:2rem;
 }
+
 .soft{
-	padding-top:2.45rem;
-	background-color: #e9d07e; 
+	padding-top:2.1rem;
+	background-image:url(../img/fundo.jpg);
+	position: relative;
 	
 }
-.soft h2{
- color: white;
- font-size: 4.5rem;
- font-weight: 400;
 
+.soft h2{
+	color: white;
+	font-size: 4.5rem;
+	font-weight: 400;
 }
+
 .soft h3{
 	color: white;
 	font-size: 2.4rem;
  	font-weight: 200;
+ 	margin-bottom: 2.6rem;
+}
+
+.fundo{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: rgba(233,205,116, .85);
+}
+
+.soft .tour{
+	color: #9b8019;
+	font-weight: 300;
+}
+
+.soft:after{
+	background:white;
+	border-radius: 50%;
+	width: 4rem;
+	height: 4.6rem;
+	position: absolute;
+    top: 51.8rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+   	color:#9b8019;
+	content: "\f107";
+	font-size: 2.2rem;
+}
+
+.soft img{
+	margin-bottom: 3.3rem;
+}
+
+#colors{
+	padding-top: 4.6rem;
+	padding-bottom:7.7rem 
+}
+
+#colors h2{
+	color: #9b8019;
+	font-size: 4.5rem;
+	font-weight: 300;
+	margin-bottom: 2.1rem;
+}
+
+#colors p{
+	color:#b9a15b;
+	font-size:2.17rem;
+	line-height: 1.5;
+	font-weight: 200;
+	margin-bottom: 10rem;
+}
+
+#colors .responsive{	
+	width: 250px;
+	height:200px;
+	margin-bottom: 2.2rem;
+}
+
+#colors h3{
+	color: #9b8019;
+	font-weight: 400;
+}
+
+#colors span{
+	color: #9b8019;
+	line-height: 1.5;
+	font-weight: 200;
 }
 
