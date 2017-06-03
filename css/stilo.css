@@ -424,3 +424,59 @@ body{
 	opacity: .4;
 	width: 15%;
 }
+
+.delicious{
+	padding-top: 4.65rem;
+	padding-bottom:7rem;
+	position: relative;
+	background-position: bottom center; 
+}
+
+.delicious .responsive{
+	width: 98%;
+	height: 47rem;
+	border-radius: .7rem;
+	
+}
+
+.delicious h2{
+	color: white;
+	font-size: 4.5rem;
+	font-weight: 300;
+	margin-bottom: 7.4rem;
+	
+}
+
+.delicious h3{
+	color: white;
+	font-weight: 400;
+}
+
+.delicious p{
+	color: white;
+	line-height: 1.5;
+	font-weight: 200;
+}
+
+.overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.prato-banana1, .prato-banana2,.prato-banana3{
+	position: relative;
+}
+
+.texto-pranto-banana1,.texto-pranto-banana2,.texto-pranto-banana3{
+	width: 91%;
+	padding-left: 1rem;
+	box-shadow: 10rem 10rem 40rem #1b1811 inset; 
+	position: absolute;
+	bottom: 0;
+	left: 1.5rem;
+}
