@@ -130,7 +130,10 @@ body{
 	font-weight: 300;
 	margin-bottom: 2.1rem;
 }
-
+#colors .titulo-colors{
+	font-size: 4.5rem;
+	font-weight: 400;
+}
 #colors p{
 	color:#b9a15b;
 	font-size:2.17rem;
@@ -156,3 +159,167 @@ body{
 	font-weight: 200;
 }
 
+#nutrients{
+	background: #e6ce76;
+	position: relative;
+	padding-top: 4.7rem;
+	padding-bottom: 10.2rem;
+}
+
+#nutrients h2{
+	color: white;
+	font-size: 4.5rem;
+	font-weight: 300;
+	margin-bottom: 1.7rem;
+}
+
+#nutrients .img-fundo1{
+ 	position: absolute;
+ 	top: 37.7rem;
+    right:8.1rem;
+ 	opacity: .4;
+}
+
+#nutrients .img-fundo2{
+ 	position: absolute;
+    top: 38.8rem;
+    left:92.9rem;
+ 	opacity: .4;
+}
+
+#nutrients span{
+	font-size: 2.4rem;
+	font-weight: 200;
+	color: white;
+}
+
+#nutrients #pell{
+	font-weight: 400;
+	font-size: 4.5rem;
+}
+
+.banana-des{
+	margin-top: 3.9rem;
+	position: relative;
+}
+
+.calories{
+	position: absolute;
+	top: 20.8rem;
+	left: 19.3rem;
+}
+
+.calories:before{
+   	color:#e7c65d;
+	font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	content: "\f111";
+	text-align: center;
+	font-size: 1.6rem;
+	border-radius:50%;
+	background-color: transparent;
+	border:solid 1px #e7c65d;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top:-13rem;
+	left:27rem;
+
+}
+
+.vitamins{
+	position: absolute;
+	top: 34.7rem;
+	left: 9.3rem;
+}
+
+.vitamins:before{
+   	color:#e7c65d;
+	font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	content: "\f111";
+	text-align: center;
+	font-size: 1.6rem;
+	border-radius:50%;
+	background-color: transparent;
+	border:solid 1px #e7c65d;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top:-19.4rem;
+	left:35.8rem;
+}
+
+.carbohydrate{
+	position: absolute;
+	top: 20.8rem;
+	right: 19.3rem;
+}
+
+.carbohydrate:before{
+   	color:#e7c65d;
+	font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	content: "\f111";
+	text-align: center;
+	font-size: 1.6rem;
+	border-radius:50%;
+	background-color: transparent;
+	border:solid 1px #e7c65d;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top:-8.5rem;
+	right:25.4rem;
+}
+
+.protein{
+	position: absolute;
+	top: 34.7rem;
+	right: 9.3rem;
+}
+
+.protein:before{
+	color:#e7c65d;
+	font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	content: "\f111";
+	text-align: center;
+	font-size: 1.6rem;
+	border-radius:50%;
+	background-color: transparent;
+	border:solid 1px #e7c65d;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top:-15.8rem;
+	right:36.4rem;
+}
+#nutrients .linha{
+	font-size: 2.4rem;
+	position: absolute;
+	top: 18rem;
+	left:26rem;
+}
+
+#nutrients .linha1{
+	font-size: 2.4rem;
+	position: absolute;
+	top: 15rem;
+	left:27.4rem;
+}
+
+#nutrients .linha2{
+	font-size: 2.4rem;
+	position: absolute;
+	top: 12rem;
+	left:29rem;
+}
