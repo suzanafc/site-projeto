@@ -11,52 +11,63 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-.menu{
-	position: relative;
+#menu{
 	background-image:url(../img/fundo.jpg);
-}
-
-.nav{
-	padding-right: 0;
-}
-
-.links{
-    margin-top: 3rem;
-    margin-bottom: 0;
-}
-
-.links li{
-	display: inline-block;
-	padding-left:2.9rem;
-}
-
-.links li a{
-	color:#9b8019;
-	text-transform: uppercase;
-	font-weight:400;
-}
-
-.btn{
-	padding-right:0;
-}
-
-.botao-menu{
-	background: transparent;
-	border: 1px solid #9b8019;
-	border-radius: 2rem;
-	padding: .3rem 1.424rem;
-	font-size: 1.6rem;
-	text-transform: uppercase;
+	position: relative;
+	width: 100%;
 }
 
 .titulo{
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 5rem;
 	color:#9b8019;
+	margin-left: 7rem;
 }
 
-.title{
-	margin-top:2rem;
+.btn{
+	margin-right: 3rem;
+}
+
+.botao-menu{
+	background: transparent;
+	border: 1px solid #9b8019;
+	border-radius: 2rem;
+	padding: .4rem 1.424rem;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+.navbar-default{
+	padding-top: .5rem;
+ 	background: transparent;
+ 	border: none;
+ 	width: 100%;
+	position: relative;
+	margin-bottom: 0;
+}
+
+
+#link{
+	float: right;
+    margin-top: 1.75rem;
+}
+
+#link li {
+    display: inline-block;
+    float: none;
+	padding-left: .6rem;
+  }
+
+#link li a {
+	color:#9b8019;
+	text-transform: uppercase;
+	font-weight:400;
+	font-size: 1.75rem;
+}
+
+#link .active a , #link .active a:focus, #link .active a:hover{
+	background: transparent;
+	font-weight:700;
 }
 
 .soft{
@@ -143,8 +154,8 @@ body{
 }
 
 #colors .responsive{	
-	width: 250px;
-	height:200px;
+	width: 25rem;
+	height:20rem;
 	margin-bottom: 2.2rem;
 }
 
@@ -209,7 +220,7 @@ body{
 	left: 19.3rem;
 }
 
-.calories:before{
+.calories:before,.vitamins:before,.carbohydrate:before,.protein:before{
    	color:#e7c65d;
 	font-family: "FontAwesome";
     font-style: normal;
@@ -217,16 +228,35 @@ body{
     text-decoration: inherit;
 	content: "\f111";
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 16px;
 	border-radius:50%;
 	background-color: transparent;
 	border:solid 1px #e7c65d;
 	width: 30px;
 	height: 30px;
+	}
+
+.calories:before{
 	position: absolute;
 	top:-13rem;
 	left:27rem;
 
+}
+
+.vitamins:before{
+	position: absolute;
+	top:-19.4rem;
+	left:35.8rem;
+}
+.carbohydrate:before{
+	position: absolute;
+	top:-8.5rem;
+	right:25.4rem;
+}
+.protein:before{
+	position: absolute;
+	top:-15.8rem;
+	right:36.4rem;
 }
 
 .vitamins{
@@ -235,73 +265,17 @@ body{
 	left: 9.3rem;
 }
 
-.vitamins:before{
-   	color:#e7c65d;
-	font-family: "FontAwesome";
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-	content: "\f111";
-	text-align: center;
-	font-size: 1.6rem;
-	border-radius:50%;
-	background-color: transparent;
-	border:solid 1px #e7c65d;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	top:-19.4rem;
-	left:35.8rem;
-}
-
 .carbohydrate{
 	position: absolute;
 	top: 20.8rem;
 	right: 19.3rem;
 }
 
-.carbohydrate:before{
-   	color:#e7c65d;
-	font-family: "FontAwesome";
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-	content: "\f111";
-	text-align: center;
-	font-size: 1.6rem;
-	border-radius:50%;
-	background-color: transparent;
-	border:solid 1px #e7c65d;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	top:-8.5rem;
-	right:25.4rem;
-}
 
 .protein{
 	position: absolute;
 	top: 34.7rem;
 	right: 9.3rem;
-}
-
-.protein:before{
-	color:#e7c65d;
-	font-family: "FontAwesome";
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-	content: "\f111";
-	text-align: center;
-	font-size: 1.6rem;
-	border-radius:50%;
-	background-color: transparent;
-	border:solid 1px #e7c65d;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	top:-15.8rem;
-	right:36.4rem;
 }
 
 #nutrients .linha{
@@ -474,7 +448,7 @@ body{
 
 .texto-pranto-banana1,.texto-pranto-banana2,.texto-pranto-banana3{
 	width: 91%;
-	padding-left: 1rem;
+	padding-left: 1px;
 	box-shadow: 10rem 10rem 40rem #1b1811 inset; 
 	position: absolute;
 	bottom: 0;
@@ -551,14 +525,15 @@ body{
 #valor{
 	padding-top: 4.6rem;
 	background:#d6c06d; 
-	padding-bottom: 7.4rem
+	padding-bottom: 6.4rem;
+
 }
 
 #valor h2{
 	color: white;
 	font-size: 4.5rem;
-	font-weight: 300;
-	margin-bottom: 6.7rem;
+	font-weight: 200;
+	margin-bottom: 4.8rem;
 }
 
 #valor h2 span{
@@ -568,7 +543,7 @@ body{
 #valor  h3{
 	color: white;
 	font-weight: 300;
-	font-size: 3.5rem;
+	font-size: 3.3rem;
 	margin-bottom: 2.2rem;
 }
 
@@ -577,20 +552,26 @@ body{
 }
 
 #valor  p{
+	margin-top: 2.4rem;
 	color: white;
-	line-height: 1.7;
-	font-weight: 300;
-	font-size: 2rem;
+	line-height: 1.55;
+	font-weight: 200;
+	font-size: 2.3rem;
 	margin-bottom:2.9rem; 
 }
 
 #valor .botao-menu {
 	color: #9b8019;
-	padding: .3rem 4.8rem;
+    padding: 0 3.9rem;
+    border: 2px solid #9b8019;
+    text-transform: unset;
+    font-size: 2.3rem;
+    font-weight: 300;
+    border-radius: 4rem;
 } 
 
 #valor .responsive{
-    margin-bottom: 4.5rem;
+    margin-bottom: 4.1rem;
 }
 
 .just{
@@ -601,17 +582,134 @@ body{
 
 #rodape{
 	padding-top: .6rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.3rem;
 }
 
 small{
-	color: #a0801d;
+	color: #a08019;
 	font-size:1.3rem;
 	font-weight: 300;
 	margin-right: 2.8rem;
+	margin-left: 2.7rem;
 }
+@media screen and (max-width: 760px){
+	html{
+	font-size: 5px;
+		}
+	.navbar-default {
+		position: relative;
+	}
+	
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border: none;
+		background-color:white;
+		width: 50%;
+		position: absolute;
+		top:1.5rem;
+		right:1.5rem;
+		z-index: 100;
+	}
 
-#rodape .responsive{
-	margin-right: 2.7rem;
+	.navbar-default .navbar-toggle{
+		border:1px solid #9b8019;
+		margin-right:5%;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		border:1px solid #9b8019;
+		background-color: transparent; 
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #9b8019; 
+	}
+
+	#link{
+		float: left;
+	}
+
+	#link  li{
+		display: block;
+		padding-left: 0;
+	}
+
+	.botao-menu {
+		border: none;
+		padding: 0;
+	}
+
+	.soft .tour {
+		text-align: center;
+	}
+
+	.soft:after {
+		top:95%;
+	}
+
+	.soft img{
+		width: 50%;
+	} 
+
+	.banana-d{
+		width: 25%;
+	}
+
+	#nutrients .img-fundo1,#nutrients .img-fundo2{
+    	display: none;
+	}
+
+	.calories:before{
+		left: 18rem;
+	}
+
+	.vitamins:before{
+		left: 27rem;
+    	top: -13rem;
+	}
+
+	.carbohydrate:before{
+		top: -6.5rem;
+		right:  15.4rem;
+	}
+
+	.protein:before{
+		right: 26rem;
+    	top: -5.8rem;
+	}
+
+	.fundo-esquerda {
+		left: 0;
+		top: -8rem;
+	}
+
+	.fundo-direita {
+		right: 0;
+		top: 8rem;
+	}
+
+	.fundo-bmeio {
+		display: none;
+	}
+
+	.delicious .responsive {
+		width: 70rem;
+		padding-bottom: 4rem;
+		height: auto;
+
+	}
+
+	.texto-pranto-banana1, .texto-pranto-banana2, .texto-pranto-banana3 {
+		width:70rem;
+		bottom: 4rem;
+		left: 6.2rem;
+	}
+
+	#valor .responsive {
+		width: 25%;
+	}
+
+	#valor .botao-menu {
+		margin-bottom: 3rem;
+	}
+	
 }
-
