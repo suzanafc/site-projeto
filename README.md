@@ -1,7 +1,7 @@
 # site-projeto
 
 
-TITLE: Project Modules
+TITLE:Banana Landing
 
 O desenvolvimento deste site foi meramente com o objetivo de obter conhecimento, 
 e colocar em prática tudo o que havia estudado em relação a css, bootstrap, html5.
